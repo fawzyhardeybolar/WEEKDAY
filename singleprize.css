@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.firstdiv{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+}
+.seconddiv{
+    background-color: lightgreen;
+    padding: 10px;
+    color: white;
+}
+.thirddiv{
+    background-color: greenyellow;
+    padding: 10px;
+}
+.join{
+    color: rgb(5, 223, 223);
+}
+.hassle{
+    color: lawngreen;
+}
+.parentdiv{
+    background-color: rgb(226, 226, 226);
+    /* text-align: center; */
+    width: 20%;
+    margin-left: 40%;
+    padding: 10px;
+}
+button{
+    background-color: rgb(63, 247, 63);
+    color: white;
+    font-size: medium;
+    margin-left: 5%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px 10px black;
+}
+span{
+    font-size: 30px;
+    font-weight: bolder;
+}

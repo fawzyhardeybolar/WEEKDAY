@@ -1,0 +1,26 @@
+/* all rules */
+/* body{
+    background-color: red;
+} */
+
+
+@media (max-width: 1200px) {
+    body{
+        background-color: aqua;
+    }
+    .img1{
+        width: 10px;
+        display: grid;
+        grid-row-gap: 30px;
+    }
+}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 1600px) {
+    body{
+        background-color: red;
+    }
+}

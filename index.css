@@ -1,0 +1,123 @@
+h1{
+    font-family: fantasy;
+    background-color: aquamarine;
+    border: 3px dashed blue;
+}
+table{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    border: 10px solid black;
+    display: inline-block;
+}
+.first_div{
+    background-color: gold;
+    text-align: center;
+    width: 50%;
+    margin-left: 50%;
+}
+span{
+    color: red;
+}
+
+.firstheader{
+    margin-right: 200px;
+}
+.paragraph{
+    color: purple;
+}
+#thanks{
+    font-size: 20px;
+     color: green;
+}
+.anothertable{
+    background-color:black;
+}
+.tabular{
+    border-radius: 18px;
+}
+/* OR */
+/* .anothertable.tabular{
+    border-radius: 18px;
+} */
+tr{
+    color: lightgreen;
+}
+.para{
+    background-color: blueviolet;
+    display: inline;
+}
+
+.mother{
+    background-color: black;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child_1{
+    background-color: aqua;
+    width: 40%;
+}
+
+.child_2{
+    background-color: aquamarine;
+    width: 40%;
+}
+
+.newdiv{
+    width: 60%;
+    background-color: chartreuse;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.div1{
+    width: 20%;
+    background-color: rgb(149, 253, 45);
+}
+
+.div2{
+    width: 20%;
+    background-color: rgb(139, 236, 43);
+}
+
+.div3{
+    width: 20%;
+    background-color: rgb(121, 205, 38);
+}
+.div4{
+    width: 20%;
+    background-color: rgb(101, 172, 30);
+}
+.div5{
+    width: 20%;
+    background-color: rgb(109, 181, 37);
+}
+.div6{
+    width: 20%;
+    background-color: rgb(87, 171, 3);
+}
+.div7{
+    width: 20%;
+    background-color: rgb(74, 145, 3);
+}
+.div8{
+    width: 20%;
+    background-color: rgb(57, 109, 6);
+}
+.first{
+    border: 3px solid;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.child{
+    background-color: cyan;
+    border: 2px dashed;
+}

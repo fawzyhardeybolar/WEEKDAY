@@ -1,0 +1,28 @@
+.rel{
+    position: relative;
+    background-color: blue;
+    height: 250px;
+    width: 200px;
+    padding-left: 120px;
+}
+
+.abs{
+    background-color: aqua;
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+
+.fix{
+    width: 50px;
+    position: fixed;
+    left: 85%;
+}
+
+.sticky{
+    position: sticky;
+    border: 2px solid gold;
+    top: 0;
+    width: 100px;
+}
